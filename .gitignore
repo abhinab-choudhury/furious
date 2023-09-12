@@ -1,0 +1,15 @@
+/node_modules
+/packages
+.log
+.tmp
+.txt
+.lock
+/bin
+/out
+/target
+/Test\ Folder
+/SmallTestFolder
+.o
+.pyc
+.class
+.idea/workspace.xml
