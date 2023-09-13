@@ -1,38 +1,4 @@
-/* 
-1. import dependencies
-2. get the path and function
-    1.-o: organize
-       - create directory 'Furious - Organized Folder' 
-       - get files only which are not in folder   
-       - identify Category of Files
-       - Move files into there respective folder.
-
-    2.-t: Tree
-           Use a  Super basic Recursion.
-
-           function  recursion(basepath, spacing){
-                for(file_folder in range(all_files)) {
-                        // check if the Present element is a File or
-                        //  a folder.  
-                    check = fs.lstatSync(<path>).isFile()
-                    if(check):
-                        print("this File like a tree using Unicode Characters")
-                    else:
-                        print(the Folder Name)
-                        basePath = join the path with the folder and then
-                        call the function again
-
-                        recursion(basePath(which you updated), Spacing + '\t'(this will add vertical space
-                            between file and Folder.))
-                    
-                    end if        
-                }
-            }
-    3.-ver: Version
-        - Console.log() the necessary information.
-    4.-h: Help
-        - Console.log() the necessary information. 
-*/
+#!/usr/bin/env node
 
 let Organize = require("./commands/organize");
 let Tree = require("./commands/tree")
