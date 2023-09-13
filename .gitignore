@@ -7,9 +7,10 @@
 /bin
 /out
 /target
-/Test\ Folder
+/TestFolder
 /SmallTestFolder
 .o
 .pyc
 .class
+.vscode/
 .idea/workspace.xml
