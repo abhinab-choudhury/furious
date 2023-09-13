@@ -43,6 +43,5 @@ function Help() {
     console.log(' - for Help: furious -h ')
     console.log(' - for Version: furious -ver ')
     console.log(' - To Organize: furious -o <basePath> ')
-    console.log(' - To Force Organize: furious -fo <basePath> ')
-    console.log(' - To get Tree Structure for the Folder: furious -fo <basePath> ')
+    console.log(' - To get Tree Structure for the Folder: furious -t <basePath> ')
 }
